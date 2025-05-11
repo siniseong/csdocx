@@ -1,15 +1,6 @@
 {
   "pages": [
     "steps",
-    "tabs",
-    "accordion",
-    "type-table",
-    "auto-type-table",
-    "banner",
-    "files",
-    "github-info",
-    "image-zoom",
-    "inline-toc",
-    "root-toggle"
+    "steps2"
   ]
 }
