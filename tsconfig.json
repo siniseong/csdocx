@@ -38,7 +38,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/app/(home)/page.mdx"  ],
   "exclude": [
     "node_modules"
   ]
