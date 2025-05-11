@@ -15,7 +15,6 @@ import {
   transformerNotationErrorLevel,
 } from "@shikijs/transformers";
 import { z } from "zod";
-// Options: https://fumadocs.vercel.app/docs/mdx/collections#define-docs
 export const docs = defineDocs({
   dir: "content/docs",
   docs: {
@@ -28,7 +27,6 @@ export const docs = defineDocs({
 
 export default defineConfig({
   mdxOptions: {
-    // MDX options
     rehypeCodeOptions: {
       lazy: true,
       experimentalJSEngine: true,
