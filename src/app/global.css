@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "fumadocs-ui/css/neutral.css";
+@import "fumadocs-ui/css/preset.css";
+
+@source '../../node_modules/fumadocs-ui/dist/**/*.js';
+
+/** Focused lines */
+.shiki.has-focused {
+  .line:not(.focused) {
+    @apply transition-all blur-[2px];
+  }
+
+  &:hover .line {
+    @apply transition-all blur-none;
+  }
+}
+
+/** Error or Warning lines */
+.shiki.has-highlighted {
+  .error {
+    @apply bg-rose-300/30;
+  }
+  .warning {
+    @apply bg-amber-300/30;
+  }
+}
